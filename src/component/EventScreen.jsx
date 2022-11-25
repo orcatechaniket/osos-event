@@ -577,7 +577,7 @@ const EventScreen = () => {
                 onClick={() => setSession("11.00-11.45 AM")}
                 className="session-card"
               >
-                11.00-11.45 PM
+                11.00-11.45 AM
               </div>
             </SwiperSlide>
  <SwiperSlide>
