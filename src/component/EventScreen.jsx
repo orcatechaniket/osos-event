@@ -574,10 +574,18 @@ const EventScreen = () => {
             </SwiperSlide>
             <SwiperSlide>
               <div
-                onClick={() => setSession("11.00-12.30 PM")}
+                onClick={() => setSession("11.00-11.45 PM")}
                 className="session-card"
               >
-                11.00-12.30 PM
+                11.00-11.45 PM
+              </div>
+            </SwiperSlide>
+ <SwiperSlide>
+              <div
+                onClick={() => setSession("11.45-12.00 PM")}
+                className="session-card"
+              >
+                11.45-12.00 PM
               </div>
             </SwiperSlide>
             <SwiperSlide>
