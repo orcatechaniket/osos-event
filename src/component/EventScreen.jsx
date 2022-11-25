@@ -125,7 +125,7 @@ const EventScreen = () => {
             >
               <center>
                 {" "}
-                <p className=" day pt-2">Thursday</p>
+                <p className=" day pt-2">Friday</p>
               </center>
               <center>
                 {" "}
@@ -144,7 +144,7 @@ const EventScreen = () => {
             >
               <center>
                 {" "}
-                <p className="text-white day pt-2">Friday</p>
+                <p className="text-white day pt-2">Saturday</p>
               </center>
               <center>
                 {" "}
@@ -163,7 +163,7 @@ const EventScreen = () => {
             >
               <center>
                 {" "}
-                <p className="text-white day pt-2">Saturday</p>
+                <p className="text-white day pt-2">Sunday</p>
               </center>
               <center>
                 {" "}
