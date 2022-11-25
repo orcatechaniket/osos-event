@@ -428,6 +428,14 @@ const EventScreen = () => {
                 1.30-2.00 PM
               </div>
             </SwiperSlide>
+ <SwiperSlide>
+              <div
+                onClick={() => setSession("2.00-3.00 PM")}
+                className="session-card"
+              >
+                2.00-3.00 PM
+              </div>
+            </SwiperSlide>
             <SwiperSlide>
               <div
                 onClick={() => setSession("3.00-3.30 PM")}
@@ -574,18 +582,18 @@ const EventScreen = () => {
             </SwiperSlide>
             <SwiperSlide>
               <div
-                onClick={() => setSession("12.30-1.30 PM")}
+                onClick={() => setSession("12.30-1.00 PM")}
                 className="session-card"
               >
-                12.30-1.30 PM
+                12.30-1.00 PM
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div
-                onClick={() => setSession("1.30-2.30 PM")}
+                onClick={() => setSession("1.00-2.00 PM")}
                 className="session-card"
               >
-                1.30-2.30 PM
+                1.00-2.00 PM
               </div>
             </SwiperSlide>
           </Swiper>
@@ -652,9 +660,17 @@ const EventScreen = () => {
       {date === "27-11-2022" && halls === "B" ? (
         <div>
           <Swiper slidesPerView={3} spaceBetween={30} className="mySwiper mt-4">
-            <SwiperSlide>
+         <SwiperSlide>
               <div
                 onClick={() => setSession("9.00-10.00 AM")}
+                className="session-card "
+              >
+                9.00-10.00 AM
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div
+                onClick={() => setSession("10.00-11.00 AM")}
                 className="session-card "
               >
                 10.00-11.00 AM
